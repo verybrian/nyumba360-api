@@ -23,16 +23,16 @@ if ENVIRONMENT == 'development':
     
 else:
     DEBUG = False
-    ALLOWED_HOSTS = ['nyumba360-api.onrender.com', 'nyumba360.vercel.app']
-    CSRF_TRUSTED_ORIGINS = ['https://nyumba360-api.onrender.com', 'https://nyumba360.vercel.app',]
+    ALLOWED_HOSTS = ['nyumba360-api.onrender.com', 'nyumba360.onrender.com']
+    CSRF_TRUSTED_ORIGINS = ['https://nyumba360-api.onrender.com', 'https://nyumba360.onrender.com',]
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SESSION_COOKIE_SAMESITE = 'None'
     CSRF_COOKIE_SAMESITE = 'None'
-    SESSION_COOKIE_DOMAIN = '.vercel.app'
-    CSRF_COOKIE_DOMAIN = '.vercel.app'
+    SESSION_COOKIE_DOMAIN = '.onrender.com'
+    CSRF_COOKIE_DOMAIN = '.onrender.com'
     CORS_ALLOW_CREDENTIALS = True
-    CORS_ALLOWED_ORIGINS = ["https://nyumba360.vercel.app",]
+    CORS_ALLOWED_ORIGINS = ["https://nyumba360.onrender.com",]
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 SESSION_COOKIE_AGE = 2592000  # 30 days
