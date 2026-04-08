@@ -23,16 +23,16 @@ if ENVIRONMENT == 'development':
     
 else:
     DEBUG = False
-    ALLOWED_HOSTS = ['api.ziaraproperty.com', 'app.ziaraproperty.com']
-    CSRF_TRUSTED_ORIGINS = ['https://api.ziaraproperty.com', 'https://app.ziaraproperty.com',]
+    ALLOWED_HOSTS = ['nyumba360-api.mjuaji.com', 'nyumba360.mjuaji.com']
+    CSRF_TRUSTED_ORIGINS = ['https://nyumba360-api.mjuaji.com', 'https://nyumba360.mjuaji.com',]
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SESSION_COOKIE_SAMESITE = 'None'
     CSRF_COOKIE_SAMESITE = 'None'
-    SESSION_COOKIE_DOMAIN = '.ziaraproperty.com'
-    CSRF_COOKIE_DOMAIN = '.ziaraproperty.com'
+    SESSION_COOKIE_DOMAIN = '.mjuaji.com'
+    CSRF_COOKIE_DOMAIN = '.mjuaji.com'
     CORS_ALLOW_CREDENTIALS = True
-    CORS_ALLOWED_ORIGINS = ["https://app.ziaraproperty.com",]
+    CORS_ALLOWED_ORIGINS = ["https://nyumba360.mjuaji.com",]
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 SESSION_COOKIE_AGE = 2592000  # 30 days
