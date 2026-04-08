@@ -29,8 +29,8 @@ else:
     CSRF_COOKIE_SECURE = True
     SESSION_COOKIE_SAMESITE = 'None'
     CSRF_COOKIE_SAMESITE = 'None'
-    SESSION_COOKIE_DOMAIN = '.onrender.com'
-    CSRF_COOKIE_DOMAIN = '.onrender.com'
+    # SESSION_COOKIE_DOMAIN = '.onrender.com'
+    # CSRF_COOKIE_DOMAIN = '.onrender.com'
     CORS_ALLOW_CREDENTIALS = True
     CORS_ALLOWED_ORIGINS = ["https://nyumba360.onrender.com",]
 
