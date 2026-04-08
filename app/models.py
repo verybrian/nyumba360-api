@@ -345,7 +345,7 @@ class TenantTransaction(models.Model):
         ordering = ['-transaction_date']
     
     def __str__(self):
-        return f'{self.amount} via M-pesa on {self.transaction_date.strftime('%Y-%m-%d %H:%M')}'
+        return f"{self.amount} via M-pesa on {self.transaction_date.strftime('%Y-%m-%d %H:%M')}"
 
 
 class SMSMessage(models.Model):
