@@ -22,7 +22,7 @@ if ENVIRONMENT == 'development':
     CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173",]
     
 else:
-    DEBUG = False
+    DEBUG = True
     ALLOWED_HOSTS = ['nyumba360-api.onrender.com', 'nyumba360.onrender.com']
     CSRF_TRUSTED_ORIGINS = ['https://nyumba360-api.onrender.com', 'https://nyumba360.onrender.com',]
     SESSION_COOKIE_SECURE = True
